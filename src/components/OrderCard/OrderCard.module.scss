@@ -1,0 +1,105 @@
+.orderCard {
+    padding: 12px;
+    background-color: #ffffff;
+    margin-bottom: 8px;
+    border-radius: 6px;
+}
+
+.orderID {
+    margin-right: 45px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #1a2024;
+    display: flex;
+    align-items: center;
+}
+.orderHead {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e5e9eb;
+    padding-bottom: 12px;
+}
+
+.orderIcons {
+    display: flex;
+    align-items: center;
+}
+.orderIcons > img:not(:last-child) {
+    margin-right: 10px;
+}
+.property {
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+    color: #48535b;
+}
+.orderPrice {
+    color: #6e8bb7;
+}
+.items {
+    margin-bottom: 12px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.watch {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-bottom: 20px;
+}
+
+.watch > img {
+    margin-right: 7px;
+}
+
+.btnPrimary,
+.btnSecondary,
+.btnReady,
+.btnComplete {
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 140px;
+    height: 36px;
+}
+.btnPrimary {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    border: none;
+    background-color: #0e73f6;
+}
+
+.btnSecondary {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #e5e9eb;
+    margin-right: 6px;
+    color: #f76659;
+    background-color: transparent;
+}
+
+.btns {
+    padding-top: 12px;
+    display: flex;
+    border-top: 1px solid #e5e9eb;
+}
+
+.btnReady,
+.btnComplete {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #0e73f6;
+    margin-right: 6px;
+    color: #0e73f6;
+    background-color: transparent;
+    width: 100%;
+}

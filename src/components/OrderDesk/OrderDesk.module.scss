@@ -1,0 +1,36 @@
+.Orders {
+    display: flex;
+    gap: 16px;
+}
+
+.orderCards {
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    padding: 8px;
+    background-color: #eef0f2;
+}
+
+.statusNew,
+.statusWorkPiece,
+.statusReady,
+.statusOntheAway {
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    padding: 12px;
+    color: #ffffff;
+    background-color: #0e73f6;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.statusWorkPiece {
+    background-color: #f8c51b;
+}
+
+.statusReady {
+    background-color: #22c348;
+}
+.statusOntheAway {
+    background-color: #1ac19d;
+}

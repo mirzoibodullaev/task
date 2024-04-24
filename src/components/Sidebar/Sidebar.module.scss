@@ -1,0 +1,23 @@
+.Sidebar {
+    position: absolute;
+    border-right: 1px solid #e5e9eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 1720px;
+    padding: 12px;
+}
+.logo {
+    margin-bottom: 22px;
+}
+
+.settings {
+    margin-bottom: 22px;
+}
+
+.topContent,
+.downContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
